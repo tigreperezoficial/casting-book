@@ -42,11 +42,12 @@ const galleryData = [
     },
     {
         id: 3,
-        src: "images/gallery-03.jpg",
-        alt: "Plano americano corporativo",
+        src: "images/Casual/Plano_medio_casul.jpg",
+        alt: "Plano medio casual",
         plano: ["americano"],
-        look: ["corporativo", "estudio"]
-    },
+        look: ["casual", "estudio"]
+    }
+    /* ,
     {
         id: 4,
         src: "images/gallery-04.jpg",
@@ -67,7 +68,7 @@ const galleryData = [
         alt: "Plano medio estudio",
         plano: ["medio"],
         look: ["estudio", "casual"]
-    }
+    } */
 ];
 
 // ===================================
