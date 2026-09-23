@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Daniel Pérez - Actor Extra y Modelo profesional. Portfolio de casting para publicidad, televisión, cine y fotografía.">
+    <meta name="keywords" content="actor, modelo, casting, portfolio, Daniel Pérez, publicidad, televisión, cine">
+    <meta name="author" content="Daniel Pérez">
+
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Daniel Pérez - Actor & Modelo">
+    <meta property="og:description" content="Portfolio profesional de casting">
+    <meta property="og:type" content="website">
+
+    <title>Daniel Pérez - Actor & Modelo | Portfolio de Casting</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navegación Fija -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">DP</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#video" class="nav-link">Video</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <img src="images/hero-main.jpeg" alt="Daniel Pérez - Actor y Modelo" class="hero-image">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-name">Daniel Pérez</h1>
+                <p class="hero-subtitle">Actor de Reparto & Extra | Presencia Física y Versatilidad</p>
+                <div class="hero-buttons">
+                    <a href="#galeria" class="btn btn-primary">Ver Galería</a>
+                    <a href="#contacto" class="btn btn-secondary">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="section about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-label">Ciudad:</span>
+                        <span class="info-value">Maipú, RM, Chile</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Edad Cronologica:</span>
+                        <span class="info-value">44 años</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Edad Aparente:</span>
+                        <span class="info-value">35-40 años</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Estatura:</span>
+                        <span class="info-value">176 cm</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Talla de Vestuario:</span>
+                        <span class="info-value">M</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Color de Ojos:</span>
+                        <span class="info-value">Cafe</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Idiomas:</span>
+                        <span class="info-value">Español (Nativo)</span>
+                    </div>
+                </div>
+                <div class="about-description">
+                    <p>Actor de reparto y extra con experiencia en producción cinematográfica, habiendo interpretado con
+                        éxito diversos perfiles en una misma película. Me caracterizo por mi facilidad para recibir
+                        dirección, mi versatilidad en escena y mi absoluto respeto por la continuidad y la dinámica del
+                        set.</p>
+                    <p>Mantengo una buena condición física a través del boxeo, trote semanal y ciclismo, sumado a una
+                        base previa en artes marciales (kickboxing y capoeira). Esto me otorga resistencia, control
+                        corporal y la energía necesaria para afrontar jornadas de rodaje exigentes. Como padre de tres
+                        hijos, valoro y garantizo la puntualidad, la responsabilidad y el compromiso serio con cada
+                        proyecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="section gallery">
+        <div class="container">
+            <h2 class="section-title">Galería</h2>
+
+            <!-- Filtros por Plano -->
+            <div class="filter-group">
+                <h3 class="filter-title">Por Plano:</h3>
+                <div class="filter-buttons" id="plano-filters">
+                    <!-- Los botones se generan dinámicamente desde JavaScript -->
+                </div>
+            </div>
+
+            <!-- Filtros por Look -->
+            <div class="filter-group">
+                <h3 class="filter-title">Por Look:</h3>
+                <div class="filter-buttons" id="look-filters">
+                    <!-- Los botones se generan dinámicamente desde JavaScript -->
+                </div>
+            </div>
+
+            <!-- Grid de Galería -->
+            <!-- Grid de Galería -->
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Las imágenes se generan dinámicamente desde JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO PRESENTACIÓN -->
+    <section id="video" class="section video-section">
+        <div class="container">
+            <h2 class="section-title">Video Presentación</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" title="Video presentación de Daniel Pérez"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Experiencia</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/exper/Plano_Medio_Corto_Peronaje.jpg" alt="Producción 1" loading="lazy">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Pelicula</h3>
+                        <p class="experience-role">Extra</p>
+                        <p class="experience-year">2026</p>
+                        <p class="experience-description">Participación como radio operador de FACH.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/exper/Medico_Urgencia.jpeg" alt="Producción 2" loading="lazy">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Pelicula</h3>
+                        <p class="experience-role">Extra</p>
+                        <p class="experience-year">2026</p>
+                        <p class="experience-description">Participación como Medico de Urgencias.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/exper/Profesor_70.jpeg" alt="Producción 3" loading="lazy">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Pelicula</h3>
+                        <p class="experience-role">Extra</p>
+                        <p class="experience-year">2026</p>
+                        <p class="experience-description">Participación como profesor de los años 70.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DATOS FÍSICOS -->
+    <section id="datos-fisicos" class="section physical-data">
+        <div class="container">
+            <h2 class="section-title">Datos Físicos</h2>
+            <div class="data-grid">
+                <div class="data-card">
+                    <div class="data-icon">📏</div>
+                    <h3>Estatura</h3>
+                    <p>176 cm</p>
+                </div>
+                <div class="data-card">
+                    <div class="data-icon">👔</div>
+                    <h3>Talla de Camisa</h3>
+                    <p>M (16)</p>
+                </div>
+                <div class="data-card">
+                    <div class="data-icon">👖</div>
+                    <h3>Talla de Pantalón</h3>
+                    <p>46</p>
+                </div>
+            </div>
+            <br>
+            <div class="data-grid">
+                <div class="data-card">
+                    <div class="data-icon">👞</div>
+                    <h3>Talla de Calzado</h3>
+                    <p>44</p>
+                </div>
+                <div class="data-card">
+                    <div class="data-icon">💇‍♂️</div>
+                    <h3>Color de Cabello</h3>
+                    <p>Negro</p>
+                </div>
+                <div class="data-card">
+                    <div class="data-icon">👁️</div>
+                    <h3>Color de Ojos</h3>
+                    <p>Cafe</p>
+                </div>
+            </div>
+            <!-- Puedes agregar esto justo después del último data-grid de Datos Físicos -->
+            <div class="data-grid" style="margin-top: 30px;">
+                <div class="data-card" style="background: #f8f9fa; border: 1px solid #e0e0e0;">
+                    <div class="data-icon">💪</div>
+                    <h3>Condición y Habilidades</h3>
+                    <p style="font-size: 0.95rem; font-weight: 500; color: #2c3e50; line-height: 1.5;">
+                        Buena condición física (Boxeo, trote).<br>
+                        Nociones de artes marciales (Kickboxing, Capoeira).<br>
+                        Puntualidad, responsabilidad y facilidad de dirección.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="contact-subtitle">Disponible para castings y proyectos profesionales</p>
+            <div class="contact-buttons">
+                <a href="https://www.instagram.com/tigreperez_oficial/" target="_blank" rel="noopener noreferrer"
+                    class="contact-btn instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <span>Instagram</span>
+                </a>
+                <a href="mailto:tigreperez.oficial@gmail.com" class="contact-btn email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>Email</span>
+                </a>
+                <a href="https://wa.me/56953490375" target="_blank" rel="noopener noreferrer"
+                    class="contact-btn whatsapp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Daniel Pérez. Todos los derechos reservados.</p>
+            <p>
+                <a href="https://github.com/tigreperezoficial/casting-book" target="_blank" rel="noopener noreferrer"
+                    class="github-link">
+                    Ver en GitHub
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+        <button class="lightbox-prev" aria-label="Anterior">&#10094;</button>
+        <button class="lightbox-next" aria-label="Siguiente">&#10095;</button>
+        <img class="lightbox-content" id="lightbox-img" alt="">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

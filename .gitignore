@@ -1,0 +1,12 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de VS Code
+.vscode/
+*.swp
+*.swo
+
+# Archivos temporales de imágenes (si los generas)
+*.tmp
