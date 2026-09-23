@@ -38,7 +38,7 @@ const galleryData = [
         src: "images/Deportivo/Plano_Medio_Deportista.JPG",
         alt: "Plano medio|15 sept 2026",
         plano: ["medio"],
-        look: ["Estudio", "Deportivo"]
+        look: ["Estudio", "deportivo"]
     },
     {
         id: 3,
