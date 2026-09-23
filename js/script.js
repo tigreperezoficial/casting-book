@@ -29,21 +29,21 @@ const galleryData = [
     {
         id: 1,
         src: "images/Casual/Plano_Americano_Clasico.JPG",
-        alt: "Plano Americano Clásico",
+        alt: "Plano Americano Clásico|15 sept 2026",
         plano: ["americano"],
         look: ["casual", "estudio"]
     },
     {
         id: 2,
         src: "images/Deportivo/Plano_Medio_Deportista.JPG",
-        alt: "Plano medio",
+        alt: "Plano medio|15 sept 2026",
         plano: ["medio"],
         look: ["Estudio", "Deportivo"]
     },
     {
         id: 3,
         src: "images/Casual/Plano_medio_casul.jpg",
-        alt: "Plano medio casual",
+        alt: "Plano medio casual|15 sept 2026",
         plano: ["americano"],
         look: ["casual", "estudio"]
     }
