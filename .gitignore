@@ -10,3 +10,6 @@ desktop.ini
 
 # Archivos temporales de imágenes (si los generas)
 *.tmp
+
+# Archivos bash
+*.bat
