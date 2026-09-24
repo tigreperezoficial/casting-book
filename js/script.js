@@ -12,7 +12,7 @@ const filterConfig = {
     look: [
         { value: 'all', label: 'Todos' },
         { value: 'casual', label: 'Casual' },
-       // { value: 'corporativo', label: 'Corporativo' },
+        { value: 'Semi_Formal', label: 'Semi_Formal' },
         { value: 'formal', label: 'Formal' },
         { value: 'deportivo', label: 'Deportivo' },
       //  { value: 'exterior', label: 'Exterior' },
@@ -29,46 +29,60 @@ const galleryData = [
     {
         id: 1,
         src: "images/Casual/Plano_Americano_Clasico.JPG",
-        alt: "Plano Americano Clásico|15 sept 2026",
+        alt: "15 sept 2026",
         plano: ["americano"],
         look: ["casual", "estudio"]
     },
     {
         id: 2,
         src: "images/Deportivo/Plano_Medio_Deportista.JPG",
-        alt: "Plano medio|15 sept 2026",
+        alt: "15 sept 2026",
         plano: ["medio"],
         look: ["Estudio", "deportivo"]
     },
     {
         id: 3,
         src: "images/Casual/Plano_medio_casul.jpg",
-        alt: "Plano medio casual|15 sept 2026",
+        alt: "15 sept 2026",
         plano: ["americano"],
         look: ["casual", "estudio"]
     }
-    /* ,
+    ,
     {
         id: 4,
-        src: "images/gallery-04.jpg",
-        alt: "Cuerpo completo exterior",
-        plano: ["completo"],
-        look: ["deportivo", "exterior"]
+        src: "images/Casual/Plano_Medio_casual_jeans.JPG",
+        alt: "23 sept 2026",
+        plano: ["medio"],
+        look: ["estudio", "casual"]
     },
     {
         id: 5,
-        src: "images/gallery-05.jpg",
-        alt: "Retrato formal",
-        plano: ["rostro"],
+        src: "images/Formal/PrimerPlano_formal.JPG",
+        alt: "23 sept 2026",
+        plano: ["medio"],
         look: ["formal", "estudio"]
     },
     {
         id: 6,
-        src: "images/gallery-06.jpg",
-        alt: "Plano medio estudio",
+        src: "images/SemiFormal/Plano_Medio_frontal.JPG",
+        alt: "23 sept 2026",
         plano: ["medio"],
-        look: ["estudio", "casual"]
-    } */
+        look: ["estudio", "Semi_Formal"]
+    } ,
+    {
+        id: 7,
+        src: "images/SemiFormal/Primer_Plano_perfildere.JPG",
+        alt: "23 sept 2026",
+        plano: ["rostro"],
+        look: ["estudio", "Semi_Formal"]
+    } ,
+    {
+        id: 8,
+        src: "images/SemiFormal/Primer_Plano_perfilizq.JPG",
+        alt: "23 sept 2026",
+        plano: ["rostro"],
+        look: ["estudio", "Semi_Formal"]
+    } 
 ];
 
 // ===================================
